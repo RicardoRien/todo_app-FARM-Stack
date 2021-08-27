@@ -1,0 +1,109 @@
+body {
+  color: white;
+  background: #272727;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.container-main {
+  border: 1px solid white;
+  border-radius: 5%;
+  padding: 20px;
+}
+
+.title {
+  border-radius: 5%;
+  padding: 0.5rem;
+}
+
+.subtitle {
+  letter-spacing: 1px;
+}
+
+.button__task {
+  background-color: limegreen;
+  border: 1px solid limegreen;
+  border-radius:  10px;
+  padding:  0.2rem 3.9rem;
+  font-style: bold;
+  cursor: pointer;
+}
+
+input {
+  display: block;
+  margin: auto;
+  margin-top: 0.4rem;
+  border-radius: 30px;
+  outline: none;
+  text-align: center;
+  text-align-last: center;
+  -moz-text-align-last: center; 
+}
+
+.button__add {
+  margin-top: 0.6rem;
+  font-style: bold;
+  color: cornflowerblue;
+  background-color: transparent;
+  border: 2px solid cornflowerblue;
+  border-radius:  10px;
+  padding:  0.2rem 3.0rem;
+  font-style: bold;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.button__add:hover {
+  color: #212121;
+  background: cornflowerblue;
+}
+
+.button__yourtask {
+  display: block;
+  margin: auto;
+  margin-top: 0.4rem;
+  background-color: limegreen;
+  border: 1px solid limegreen;
+  border-radius:  10px;
+  padding:  0.2rem 4.7rem;
+  font-style: bold;
+  cursor: pointer;
+}
+
+.title__task {
+  font-size: 1.1rem;
+  letter-spacing: 2.5px;
+  margin-top: .6em;
+  margin-bottom: .6em;
+}
+
+.button_delete-task {
+  position: relative;
+  bottom: .1em;
+  background: transparent;
+  border-radius: 15px;
+  color: white;
+  border: 2px solid white;
+  margin-left: 0.8rem;
+  margin-bottom: 0.1rem;
+  cursor: pointer;
+}
+
+
+.button_delete-task:hover {
+  background:  red;
+  border-color:  red;
+  color:  #272727;
+  transition: 0.2s ease-in;
+}
